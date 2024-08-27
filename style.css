@@ -1,0 +1,239 @@
+html,
+body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header .link {
+    position: relative;
+    font-weight: normal;
+    text-decoration: none;
+    color: #1f1f1f;
+    font: 13px/27px, sans-serif;
+    /* margin: auto 7px; */
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 15px;
+    margin-top: 10px; */
+    font: 13px/27px "Roboto",Arial,sans-serif;
+    justify-content: flex-end;
+    gap: 20px;  
+    padding: 6px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.container {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container .content {
+    flex: 1;
+}
+
+header .icn-and-btn {
+    gap: 20px;  
+}
+
+header .icn-and-btn .product-icon{
+    align-items: center;
+    color:#444746;
+}
+
+
+
+header .links {
+    gap: 20px;
+}
+
+header .links .link {
+    font-size: 13px;
+}
+
+
+header .sign-in-button {
+    background: var(--gm3-sys-color-primary, #0b57d0);
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    padding: 11px 11px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight:500;
+    line-height: 18px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 22px;
+}
+
+.google-logo img {
+    width: 272px;
+    height: 92px;
+
+}
+
+.google-logo {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.search-engine .inbox {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.search-engine .inbox .search-inbox {
+    width: 582.4px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid #dcdcdc;
+    line-height: 22px;
+    padding-top: 11px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.search-engine .inbox .search-inbox .search-input {
+    outline: none;
+    margin-left: 35px;
+    width: 400px;
+    border: none;
+}
+
+.search-engine .inbox .magnifying-icon {
+    color: #9aa0a6;
+    padding: 10px;
+    position: absolute;
+    min-width: 40px;
+    margin-right: 580px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.search-engine .inbox .magnifying-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.search-engine .inbox .keyboard-icon {
+    color: #9aa0a6;
+    position: absolute;
+    min-width: 40px;
+    margin-left: 400px;
+    margin-top: 14px;
+}
+
+.search-engine .inbox .keyboard-icon img {
+    margin-top: 7px;
+    width: 19px;
+}
+
+.search-engine .inbox .mic-icon {
+    position: absolute;
+    margin-top: 10px;
+    min-width: 40px;
+    margin-left: 470px;
+}
+
+.search-engine .inbox .mic-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.search-engine .inbox .camera-icon {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 13px;
+}
+
+
+.search-engine center input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.search-engine center .search-in-google-button {
+    width: 122px;
+}
+
+.search-in-google-button:hover {
+    border-color: #0b57d0;
+}
+
+.search-engine center .im-feeling-lucky-button {
+    width: 215.68px;
+}
+
+.im-feeling-lucky-button:hover {
+    border-color: #0b57d0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    flex-direction: column;
+}
+
+footer .location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer .navigation {
+    height: 48px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+.navigation a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation .link {
+    padding:15px ;
+}
+
+.navigation .nav1 {
+    min-width: 30%;
+}
+
+.navigation .nav2 {
+    min-width: 30%;
+    justify-content: flex-end;
+}
