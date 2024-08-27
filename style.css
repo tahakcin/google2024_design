@@ -55,7 +55,16 @@ header .icn-and-btn .product-icon{
     color:#444746;
 }
 
+header .icn-and-btn .p-icon {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 100px;
+    transition: background-color 0.4s ease;
+}
 
+.p-icon:hover {
+    background-color: #f2f2f2;
+}
 
 header .links {
     gap: 20px;
@@ -81,6 +90,10 @@ header .sign-in-button {
     align-items: center;
     cursor: pointer;
     margin-right: 22px;
+}
+
+.sign-in-button:hover {
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.24);
 }
 
 .google-logo img {
@@ -114,7 +127,7 @@ header .sign-in-button {
 .search-engine .inbox .search-inbox .search-input {
     outline: none;
     margin-left: 35px;
-    width: 400px;
+    width: 480px;
     border: none;
 }
 
@@ -184,7 +197,8 @@ header .sign-in-button {
 }
 
 .search-in-google-button:hover {
-    border-color: #0b57d0;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 1px 1px 0 rgba(0,0,0,0.24);
 }
 
 .search-engine center .im-feeling-lucky-button {
@@ -192,7 +206,8 @@ header .sign-in-button {
 }
 
 .im-feeling-lucky-button:hover {
-    border-color: #0b57d0;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 1px 1px 0 rgba(0,0,0,0.24);
 }
 
 footer {
